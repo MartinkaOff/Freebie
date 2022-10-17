@@ -3,6 +3,11 @@ $(document).ready(function() {
         dots: true
     });
 
+    $('.team__slider').slick( {
+        prevArrow: '<img src = "icons/team/prev.svg" class="team__slide-prev"></img>',
+        nextArrow: '<img src = "icons/team/next.svg" class="team__slide-next"></img>'
+    });
+
     let nav = document.querySelectorAll('.promo__nav'),
     divider = document.querySelectorAll('.promo__divider');
     
@@ -24,11 +29,6 @@ $(document).ready(function() {
         slider.style.overflow = 'hidden';
     }
     sliderHidden();
-
-   /*  $('ul.works__categories').on('click', 'li:not(.works__categories-link_active)', function() {
-        $(this)
-            .addClass('works__categories-link_active').siblings().removeClass('works__categories-link_active');
-    }); */
     
 });
 
