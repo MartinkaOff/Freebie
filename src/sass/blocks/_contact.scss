@@ -1,0 +1,51 @@
+.contact {
+    overflow: hidden;
+    height: 300px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        padding: 70px 0 100px 0;
+        width: 903px;
+        height: 300px;
+        text-align: center;
+        transition: 0.5s all;
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.1);
+        }
+        &-work {
+            background: #FBFBFB;;
+        }
+        &-contact-us {
+            background: #70BD59;
+        }
+        &-title {
+            margin-top: 19px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 2.66667px;
+            color: #373737;
+            &-white {
+                color: #FFFFFF;
+            }
+        }
+        &-text {
+            margin-top: 22px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 1.55556px;
+            color: #373737;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            &-white {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
