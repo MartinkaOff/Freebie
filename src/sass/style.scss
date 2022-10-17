@@ -1,0 +1,25 @@
+@import 'base/mixins';
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick-theme';
+@import 'libs/slick';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/sqwd';
+@import 'blocks/services';
+@import 'blocks/divider';
+@import 'blocks/works';
+@import 'blocks/team';

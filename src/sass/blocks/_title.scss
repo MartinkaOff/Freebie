@@ -1,0 +1,18 @@
+.title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 3.072px;
+    color: #252525;
+    &_big {
+        margin-top: 283px;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 107px;
+        text-align: center;
+        letter-spacing: 4.608px;
+        color: #FFFFFF;
+    }
+}

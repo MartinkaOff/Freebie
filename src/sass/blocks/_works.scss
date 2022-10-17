@@ -1,0 +1,100 @@
+.works {
+    display: flex;
+    position: relative;
+    padding: 221px 0 173px 0;
+    margin-bottom: 310px;
+    &__header {
+        width: 549px;
+        margin-bottom: 80%;
+    }
+    &__categories {
+        margin-top: 51px;
+        width: 549px;
+        display: flex;
+        justify-content: space-between;
+        &-link {
+            display: block;
+            cursor: pointer;
+            list-style: none;
+            font-family: 'OpenSans';
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.832px;
+            color: #252525;
+            mix-blend-mode: normal;
+            opacity: 0.3;
+            &_active {
+                opacity: 1;
+            }
+        }
+    }
+    &__right {
+        margin-left: 49px;
+    }
+    &__left {
+        top: 30.5%;
+        position: absolute;
+        left: 11%;
+    }
+    &__block {
+        margin-bottom: 177px;
+        position: relative;
+        width: 585px;
+        &-img {
+            padding-left: 129px;
+            &-left {
+                padding-left: 0;
+                padding-right: 128px;
+            }
+            
+        }
+        &-title {
+            position: absolute;
+            left: 0;
+            top: 47%;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 71px;
+            letter-spacing: 3.072px;
+            color: #252525;
+            &-left {
+                left: 62.5%;
+                width: 100%;
+            }
+            &:hover {
+                text-decoration: line-through;
+                text-decoration-color: #70BF73;;
+            }
+        }
+        &-text {
+            margin-top: 24px;
+            padding-right: 125px;
+            font-family: 'OpenSans';
+            font-size: 13px;
+            line-height: 23px;
+            text-align: right;
+            letter-spacing: 0.832px;
+            color: #C2C2C2;
+            span {
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 1.152px;
+                color: #252525;
+            }
+            &-left {
+                text-align: left;
+                padding-right: 0;
+                padding-left: 174px;
+            }
+        }
+    }
+}
+.container_works {
+    width: 1185px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

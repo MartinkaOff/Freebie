@@ -1,0 +1,65 @@
+.team {
+    padding: 135px 0 117px 0;
+    &__wrapper {
+        margin-top: 71px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 28px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 370px;
+        height: 398px;
+        background: url('../img/team/tom.jpg') center (center / cover) no-repeat;
+        &:hover {
+            .team__item-text {
+                background: rgba($color: #FFFFFF, $alpha: .9);
+            }
+        }
+        &-michael {
+            background: url('../img/team/michael.jpg') center (center / cover) no-repeat;
+        }
+        &-tim {
+            background: url('../img/team/tim.jpg') center (center / cover) no-repeat;;
+        }
+        &-text {
+            padding-top: 12px;
+            text-align: center;
+            width: 370px;
+            height: 55px;
+            background: rgba($color: #FFFFFF, $alpha: 0.5);
+            mix-blend-mode: normal;
+            
+        }
+        &-name {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 27px;
+            letter-spacing: 1.152px;
+            color: #252525;
+        }
+        &-divider {
+            margin: 0 auto;
+            margin-top: 16px;
+            width: 45px;
+            height: 2px;
+            border-bottom: 1px solid #000;
+            background: #252525;
+        }
+        &-job {
+            margin-top: 10px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 27px;
+            letter-spacing: 1.152px;
+            color: #252525;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@mixin divider {
+    &::before {
+        position: absolute;
+        border-bottom: 2px solid #000;
+        content: '';
+        width: 20px;
+        height: 2px;
+    }
+}
