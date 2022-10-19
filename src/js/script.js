@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $('.promo-slider').slick( {
+    /* $('.promo-slider').slick( {
         dots: true
-    });
+    }); */
 
     $('.team__slider').slick( {
         prevArrow: '<img src = "icons/team/prev.svg" class="team__slide-prev"></img>',
@@ -23,12 +23,12 @@ $(document).ready(function() {
         });
     }
 
-    function sliderHidden() {
+/*     function sliderHidden() {
         let slider = document.querySelector('.promo-slider');
 
         slider.style.overflow = 'hidden';
     }
-    sliderHidden();
+    sliderHidden(); */
     
 });
 

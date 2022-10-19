@@ -1,0 +1,205 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 990px;
+    }
+    .promo {
+        &__header {
+            padding: 0 30px;
+        }
+        &__title {
+            margin: 0 auto;
+            margin-top: 283px;
+            width: 900px;
+        }
+    }
+    .sqwd {
+        &__descr-end {
+            left: 60%;
+        }
+    }
+    .services {
+        &__item {
+            width: 300px;
+            height: 200px;
+        }
+    }
+    .container_works {
+        display: block;
+    }
+    .works {
+        &__header {
+            margin-bottom: 40px;
+        }
+        &__left {
+            margin: 0 36%;
+            top: 0;
+            position: relative;
+            left: 0;
+        }
+        &__block {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .team {
+        &__slider {
+            margin: 0 auto;
+            margin-top: 284px;
+            width: 915px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 766px;
+    }
+    .promo {
+        &__title {
+            width: 766px;
+        }
+    }
+    .services {
+        &__wrapper {
+            display: block;
+        }
+        &__item {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .works {
+        &__block-img {
+            padding: 0;
+        }
+        &__left {
+            margin: 0 auto;
+        }
+    }
+    .team {
+        &__slider {
+            display: none;
+        }
+        &__wrapper {
+            display: block;
+            overflow: visible;
+        }
+        &__item {
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+    }
+    .sqwd__descr-end {
+        left: 55%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        overflow: hidden;
+        width: 574px;
+    }
+    .promo {
+        &__title {
+            font-size: 60px;
+            width: 574px;
+        }
+    }
+    .sqwd {
+        overflow: hidden;
+        &__descr {
+            margin-left: 0;
+        }
+    }
+    .works {
+        img {
+            width: 450px;
+        }
+        &__block {
+            margin: 0 60px;
+            &-title-left {
+                left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 319px;
+    }
+
+    .promo {
+        &__header {
+            display: block;
+        }
+        &__navbar {
+            margin-top: 20px;
+            display: inline-block;
+            width: 0;
+            li {
+                display: inline-block;
+            }
+        }
+        &__nav {
+            margin-top: 25px;
+            font-size: 25px;
+        }
+        &__divider {
+            border-width: 3px;
+        }
+        &__title {
+            display: none;
+        }
+    }
+    .sqwd__descr-end {
+        left: 0;
+    }
+    .services {
+        padding: 346px 0 0 0;
+        &__item {
+            margin: 0;
+            &:hover {
+                transform: none;
+            }
+        }
+    }
+    .works {
+        padding: 0;
+        margin-bottom: 0;
+        img {
+            width: 319px;
+        }
+        padding: 120px 0 173px 0;
+        &__categories {
+            display: block;
+            &-link {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+        &__right {
+            margin: 0;
+        }
+        &__block {
+            margin: 0;
+            margin-top: 20px;
+            &-title {
+                width: 250px;
+                font-size: 38px;
+            }
+            &-text {
+                display: none;
+            }
+        }
+    }
+    .team {
+        &__item {
+            width: 270px;
+        }
+    }
+}

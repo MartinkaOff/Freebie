@@ -2,10 +2,7 @@
     padding: 79px 0 19px 0;
     background: url('../img/promo/bg.jpg') center (center / cover) no-repeat;
     min-height: 904px;
-    overflow: hidden;
-    &_2 {
-        background: url('../img/promo/bg2.jpg') center (center / cover) no-repeat;
-    }
+    /* overflow: hidden; */
     &__header {
         display: flex;
         justify-content: space-between;
@@ -60,7 +57,7 @@
 }
 
 
-.slick-dots {
+/* .slick-dots {
     bottom: 162px;
     li button:before {
         font-size: 40px;
@@ -69,4 +66,4 @@
 }
 .slick-dotted.slick-slider {
     margin-bottom: 100px;
-}
+} */

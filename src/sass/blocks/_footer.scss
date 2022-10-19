@@ -1,0 +1,92 @@
+.footer {
+    &-top {
+        padding: 83px 0 83px 0;
+        height: 339px;
+        background: #2E2E2E;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &-bottom {
+        height: 58px;
+        background: #252525;
+    }
+    &__title {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 30px;
+        letter-spacing: 3.072px;
+        color: #FFFFFF;
+    }
+    &__location {
+        margin-top: 29px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 19px;
+        letter-spacing: 0.832px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__num-email {
+        margin-top: 10px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 19px;
+        letter-spacing: 0.832px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    &__social {
+        margin: 0 auto;
+        margin-top: 39px;
+        width: 138px;
+        display: flex;
+        justify-content: space-between;
+        svg {
+            text-align: center;
+            margin: 0 auto;
+            width: 18px;
+            fill: #FFFFFF;
+            stroke: #FFFFFF;
+        }
+    }
+    &__circle {
+        cursor: pointer;
+        border: 2px solid #FFFFFF;
+        opacity: 0.5;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        &:hover {
+            background: #FFFFFF;
+            opacity: 1;
+            svg {
+                fill: #2E2E2E;
+                stroke: #2E2E2E;
+            }
+        }
+    }
+    &__copyright {
+        padding-top: 21px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 19px;
+        letter-spacing: 0.832px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        text-align: center;
+    }
+}
